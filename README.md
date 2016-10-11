@@ -1,4 +1,4 @@
 # Freighthouse.io
-#### Author - Jeremy Michael Cerda
-Drupal 8 project for Freighthouse.
-https://www.freighthouse.io
+#### Author - Jeremy Michael Cerda @freighthouse
+
+Drupal 8 project for https://www.freighthouse.io
