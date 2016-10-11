@@ -1,3 +1,3 @@
 # Freighthouse.io
-## Author - Jeremy Michael Cerda
+#### Author - Jeremy Michael Cerda
 Drupal 8 project for Freighthouse.
