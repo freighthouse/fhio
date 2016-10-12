@@ -33,7 +33,8 @@
         "drupal/slick_views": "8.1.0-beta4",
         "drupal/slick_media": "^8.1@beta",
         "drupal/slick_video": "^8.1@beta",
-        "drupal/media_entity_audio": "^8.1@beta"
+        "drupal/media_entity_audio": "^8.1@beta",
+        "drupal/media_entity_facebook": "8.1.x-dev"
     },
     "repositories": {
         "0": {
