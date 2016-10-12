@@ -20,30 +20,47 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "1.5.0",
-        "drupal/lightning": "^8.1.0"
+        "drupal/lightning": "^8.1.0",
+        "drupal/geolocation": "^8.1",
+        "drupal/address": "^8.1@RC",
+        "drupal/blazy": "^8.1@beta",
+        "drupal/dropzonejs": "^8.1@alpha",
+        "drupal/file_browser": "^8.1@alpha",
+        "drupal/google_analytics": "^8.2",
+        "drupal/config_sync": "^8.1@alpha",
+        "drupal/config_tools": "^8.1@alpha",
+        "drupal/slick": "8.1.0-beta4",
+        "drupal/slick_views": "8.1.0-beta4",
+        "drupal/slick_media": "^8.1@beta",
+        "drupal/slick_video": "^8.1@beta",
+        "drupal/media_entity_audio": "^8.1@beta"
     },
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://packagist.drupal-composer.org"
+        },
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
         }
-    ],
+    },
     "scripts": {
-      "post-install-cmd": [
-        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "Acquia\\Lightning\\ScriptHandler::deployLibraries"
-      ],
-      "post-update-cmd": [
-        "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "Acquia\\Lightning\\ScriptHandler::deployLibraries"
-      ]
+        "post-install-cmd": [
+            "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+            "Acquia\\Lightning\\ScriptHandler::deployLibraries"
+        ],
+        "post-update-cmd": [
+            "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+            "Acquia\\Lightning\\ScriptHandler::deployLibraries"
+        ]
     },
     "config": {
         "bin-dir": "bin/"
     },
     "autoload": {
         "classmap": [
-          "scripts/ScriptHandler.php"
+            "scripts/ScriptHandler.php"
         ]
     },
     "extra": {
