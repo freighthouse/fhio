@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'UHaCMku_DypWvYlOnl13mVZx3pA9WHl1G9nlM17Gx0mxAD02utHQMr5LRoODxwinGi2M_HwrYQ';
 
 /**
  * Deployment identifier.
@@ -760,3 +760,15 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
   require $_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/loc_fhio_dd.inc';
 }
 // </DDSETTINGS>
+$databases['default']['default'] = array (
+  'database' => 'fhio',
+  'username' => 'drupaluser',
+  'password' => '',
+  'prefix' => '',
+  'host' => '127.0.0.1',
+  'port' => '33067',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'lightning';
+$config_directories['sync'] = 'sites/fhio.dd/files/config_AmoPgSQMpofC2PPb7OfE99YVeo5MRKPVButIPekgR43boFuNihHC-zv58Lou_cnYzZqbm0PfpA/sync';
