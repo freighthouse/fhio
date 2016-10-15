@@ -22,7 +22,6 @@
         "cweagans/composer-patches": "1.5.0",
         "drupal/lightning": "^8.1.0",
         "drupal/geolocation": "^8.1",
-        "drupal/address": "^8.1@RC",
         "drupal/blazy": "^8.1@beta",
         "drupal/dropzonejs": "^8.1@alpha",
         "drupal/file_browser": "^8.1@alpha",
