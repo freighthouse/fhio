@@ -21,6 +21,7 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "1.5.0",
         "drupal/lightning": "^8.1.0",
+        "drupal/commerce": "2.x-dev",
         "drupal/geolocation": "^8.1",
         "drupal/blazy": "^8.1@beta",
         "drupal/dropzonejs": "^8.1@alpha",
