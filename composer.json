@@ -45,7 +45,8 @@
         "drupal/admin_toolbar_tools": "8.x",
         "drupal/name": "8.x",
         "drupal/Search_api_solr": "8.x",
-        "drupal/search_api_solr_multilingual": "8.x"
+        "drupal/search_api_solr_multilingual": "8.x",
+        "drupal/externalauth": "^8.1@alpha"
     },
     "repositories": {
         "0": {

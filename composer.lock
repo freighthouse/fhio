@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a17ef843b32ff4ebc4e2346145ee5af2",
-    "content-hash": "998ec92229fc8e2159003a1112c8585a",
+    "hash": "cb42a1894146e4aef51a67d2907ce975",
+    "content-hash": "52e17c5c12a731cbb3dbca41f7b32a5e",
     "packages": [
         {
             "name": "acquia/content-hub-php",
@@ -1885,6 +1885,37 @@
             "time": "2016-08-11 08:38:41"
         },
         {
+            "name": "drupal/externalauth",
+            "version": "8.1.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/externalauth.git",
+                "reference": "55d7e0965089f98fe9e77f91943a74459cb06da8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/externalauth-8.x-1.0-alpha4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Helper module to authenticate users using an external site / service and storing identification details",
+            "homepage": "https://www.drupal.org/project/externalauth",
+            "time": "2016-06-25 12:16:24"
+        },
+        {
             "name": "drupal/features",
             "version": "8.3.0-rc1",
             "source": {
@@ -3161,7 +3192,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/search_api_solr_multilingual-8.x-1.0-alpha3.zip",
-                "reference": null,
+                "reference": "b643a011c135e587bd1bb92bac4eb51a6155c4b4",
                 "shasum": null
             },
             "require": {
@@ -8129,7 +8160,8 @@
         "drupal/slick_media": 10,
         "drupal/slick_video": 10,
         "drupal/media_entity_audio": 10,
-        "drupal/media_entity_facebook": 20
+        "drupal/media_entity_facebook": 20,
+        "drupal/externalauth": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
