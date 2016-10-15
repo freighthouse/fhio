@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ec7c472feabad5091b7f2df347e6d4ab",
-    "content-hash": "e956e5ec877e49242afe5f7594c9c8ad",
+    "hash": "70f509e43e78d2314d1c22c5f915b049",
+    "content-hash": "b402e1fd182f02a5b439494c2515455d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -935,6 +935,76 @@
             "time": "2016-09-28 18:36:50"
         },
         {
+            "name": "drupal/acquia_lift",
+            "version": "8.3.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/acquia_lift",
+                "reference": "2724a82ee7ab58160e49dd3c45554d096fa661b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/acquia_lift-8.x-3.0-beta2.zip",
+                "reference": "2724a82ee7ab58160e49dd3c45554d096fa661b2",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/node": "8.*",
+                "drupal/taxonomy": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides integration to the Acquia Lift service for personalization and visitor data collection.",
+            "homepage": "https://www.drupal.org/project/acquia_lift",
+            "time": "2016-10-07 21:20:20"
+        },
+        {
+            "name": "drupal/acquia_purge",
+            "version": "8.1.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/acquia_purge",
+                "reference": "1f40a25af3cacf73426dc4a5806f6b01d34fdf84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/acquia_purge-8.x-1.0-alpha2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/page_cache": "8.*",
+                "drupal/purge": "8.*",
+                "drupal/purge_drush": "8.*",
+                "drupal/purge_processor_cron": "8.*",
+                "drupal/purge_processor_lateruntime": "8.*",
+                "drupal/purge_queuer_coretags": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Top-notch cache invalidation on Acquia Cloud!",
+            "homepage": "https://www.drupal.org/project/acquia_purge",
+            "time": "2016-09-07 13:43:49"
+        },
+        {
             "name": "drupal/address",
             "version": "8.1.0-rc2",
             "source": {
@@ -1569,6 +1639,34 @@
             "time": "2016-09-08 18:41:50"
         },
         {
+            "name": "drupal/entity_storage_migrate",
+            "version": "dev-8.x-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/entity_storage_migrate.git",
+                "reference": "792dd730f32c737acef1d7292e91e2502900ff03"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "This module makes it possible to install modules that provide new entity storage handlers on sites that already have entity data on the site.",
+            "homepage": "http://drupal.org/project/entity_storage_migrate",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-08-11 08:38:41"
+        },
+        {
             "name": "drupal/features",
             "version": "8.3.0-rc1",
             "source": {
@@ -1762,37 +1860,58 @@
             "time": "2016-04-18 21:57:48"
         },
         {
+            "name": "drupal/key_value",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/key_value.git",
+                "reference": "e5cf1d9918c63869f1a265bb82c40b25370a5dea"
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/serialization": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Extends the core key-value API with a backend for lists and sorted sets that you can do range queries on.",
+            "homepage": "https://www.drupal.org/project/key_value",
+            "time": "2015-12-05 00:22:40"
+        },
+        {
             "name": "drupal/layout_plugin",
-            "version": "8.1.0-alpha22",
+            "version": "8.1.0-alpha23",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/layout_plugin",
-                "reference": "90be55a68dd33d3564c26fab77573b62f6cda77e"
+                "reference": "a0a5ee04d162b90b690a09d1db29d541e9d2773c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha22.zip",
-                "reference": "90be55a68dd33d3564c26fab77573b62f6cda77e",
+                "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha23.zip",
+                "reference": "a0a5ee04d162b90b690a09d1db29d541e9d2773c",
                 "shasum": null
             },
             "require": {
                 "drupal/core": "8.*"
             },
             "replace": {
-                "drupal/block_page_layout": "self.version",
                 "drupal/layout_plugin_example": "self.version"
             },
             "suggest": {
-                "drupal/core": "Required by drupal/block_page_layout, drupal/layout_plugin_example",
-                "drupal/page_manager": "Required by drupal/block_page_layout"
+                "drupal/core": "Required by drupal/layout_plugin_example"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
-                },
-                "patches_applied": {
-                    "2811423: Add public getLayout() method to LayoutBase - via mega patch": "https://www.drupal.org/files/issues/2747739-26--layout_plugin-alpha22-to-96a5cf90.patch"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -1810,26 +1929,26 @@
                     "name": "Fredrik Lassen"
                 }
             ],
-            "description": "A registry for layout plugins.",
+            "description": "Provides a way for modules or themes to register layouts.",
             "homepage": "https://www.drupal.org/project/layout_plugin",
             "keywords": [
                 "layout",
                 "php"
             ],
-            "time": "2016-01-11 16:56:15"
+            "time": "2016-10-03 18:36:43"
         },
         {
             "name": "drupal/lightning",
-            "version": "8.1.06",
+            "version": "8.1.11",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/lightning.git",
-                "reference": "19d6e3f0c4e0da942070009d6bfa531256a5ead7"
+                "reference": "410f6399eecdcb587341f862af19af2fa9d80029"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lightning-8.x-1.06.zip",
-                "reference": "19d6e3f0c4e0da942070009d6bfa531256a5ead7",
+                "url": "https://ftp.drupal.org/files/projects/lightning-8.x-1.11.zip",
+                "reference": "410f6399eecdcb587341f862af19af2fa9d80029",
                 "shasum": null
             },
             "require": {
@@ -1853,6 +1972,7 @@
                 "drupal/entity_browser": "8.1.0-alpha9",
                 "drupal/entity_embed": "^8.1.0",
                 "drupal/entity_reference": "8.*",
+                "drupal/entity_storage_migrate": "dev-8.x-1.x",
                 "drupal/features": "^8.3.0",
                 "drupal/field_ui": "8.*",
                 "drupal/file": "8.*",
@@ -1860,7 +1980,8 @@
                 "drupal/history": "8.*",
                 "drupal/image": "8.*",
                 "drupal/inline_entity_form": "^8.1.0",
-                "drupal/layout_plugin": "8.1.0-alpha22",
+                "drupal/key_value": "^8.1.0",
+                "drupal/layout_plugin": "8.1.0-alpha23",
                 "drupal/media_entity": "^8.1.0",
                 "drupal/media_entity_document": "^8.1.0",
                 "drupal/media_entity_image": "^8.1.0",
@@ -1869,6 +1990,7 @@
                 "drupal/menu_link_content": "8.*",
                 "drupal/menu_ui": "8.*",
                 "drupal/metatag": "8.1.0-beta10",
+                "drupal/multiversion": "8.1.0-alpha10",
                 "drupal/node": "8.*",
                 "drupal/options": "8.*",
                 "drupal/page_cache": "8.*",
@@ -1879,6 +2001,7 @@
                 "drupal/pathauto": "^8.1.0",
                 "drupal/quickedit": "8.*",
                 "drupal/rdf": "8.*",
+                "drupal/replication": "8.1.0-alpha4",
                 "drupal/scheduled_updates": "8.1.0-alpha5",
                 "drupal/shortcut": "8.*",
                 "drupal/taxonomy": "8.*",
@@ -1889,7 +2012,8 @@
                 "drupal/views": "8.*",
                 "drupal/views_infinite_scroll": "^8.1.1",
                 "drupal/views_ui": "8.*",
-                "drupal/workbench_moderation": "8.1.1"
+                "drupal/workbench_moderation": "8.1.1",
+                "drupal/workspace": "8.1.0-alpha3"
             },
             "replace": {
                 "drupal/lightning_core": "self.version",
@@ -1900,6 +2024,7 @@
                 "drupal/lightning_media_instagram": "self.version",
                 "drupal/lightning_media_twitter": "self.version",
                 "drupal/lightning_media_video": "self.version",
+                "drupal/lightning_preview": "self.version",
                 "drupal/lightning_workflow": "self.version"
             },
             "require-dev": {
@@ -1921,7 +2046,7 @@
                 "symfony/css-selector": "~2.8"
             },
             "suggest": {
-                "drupal/core": "Required by drupal/lightning_core, drupal/lightning_layout, drupal/lightning_media, drupal/lightning_media_document, drupal/lightning_media_image, drupal/lightning_media_instagram, drupal/lightning_media_twitter, drupal/lightning_media_video, drupal/lightning_workflow",
+                "drupal/core": "Required by drupal/lightning_core, drupal/lightning_layout, drupal/lightning_media, drupal/lightning_media_document, drupal/lightning_media_image, drupal/lightning_media_instagram, drupal/lightning_media_twitter, drupal/lightning_media_video, drupal/lightning_preview, drupal/lightning_workflow",
                 "drupal/entity_browser": "Required by drupal/lightning_media",
                 "drupal/entity_embed": "Required by drupal/lightning_media",
                 "drupal/file": "Required by drupal/lightning_media_document",
@@ -1929,6 +2054,7 @@
                 "drupal/inline_entity_form": "Required by drupal/lightning_media, drupal/lightning_workflow",
                 "drupal/lightning_core": "Required by drupal/lightning_layout, drupal/lightning_media, drupal/lightning_workflow",
                 "drupal/lightning_media": "Required by drupal/lightning_media_document, drupal/lightning_media_image, drupal/lightning_media_instagram, drupal/lightning_media_twitter, drupal/lightning_media_video",
+                "drupal/lightning_workflow": "Required by drupal/lightning_preview",
                 "drupal/media_entity": "Required by drupal/lightning_media",
                 "drupal/media_entity_document": "Required by drupal/lightning_media_document",
                 "drupal/media_entity_image": "Required by drupal/lightning_media_image",
@@ -1945,7 +2071,8 @@
                 "drupal/user": "Required by drupal/lightning_core, drupal/lightning_media",
                 "drupal/video_embed_media": "Required by drupal/lightning_media_video",
                 "drupal/views_infinite_scroll": "Required by drupal/lightning_media",
-                "drupal/workbench_moderation": "Required by drupal/lightning_workflow"
+                "drupal/workbench_moderation": "Required by drupal/lightning_workflow",
+                "drupal/workspace": "Required by drupal/lightning_preview"
             },
             "type": "drupal-profile",
             "extra": {
@@ -1958,9 +2085,6 @@
                     ]
                 },
                 "patches": {
-                    "drupal/layout_plugin": {
-                        "2811423: Add public getLayout() method to LayoutBase - via mega patch": "https://www.drupal.org/files/issues/2747739-26--layout_plugin-alpha22-to-96a5cf90.patch"
-                    },
                     "drupal/panelizer": {
                         "2747739 - Mega Patch": "https://www.drupal.org/files/issues/panelizer--alpha2-1ddfa61--2747739-5.patch",
                         "2701349 - Generate new UUIDs for displays when switching from default to field storage": "https://www.drupal.org/files/issues/2701349-2.patch",
@@ -1985,10 +2109,24 @@
                     },
                     "drupal/metatag": {
                         "2786795 - DrupalConsole integration breaks Drush": "https://www.drupal.org/files/issues/metatag-deactivate_drupalconsole_services_0.patch"
+                    },
+                    "drupal/workspace": {
+                        "2791789 - Workspace should report conflicts before replication": "https://www.drupal.org/files/issues/2791789-34.patch"
+                    },
+                    "drupal/replication": {
+                        "2814055 - Allow modules to react to replication events": "https://www.drupal.org/files/issues/2814055-2.patch"
+                    },
+                    "drupal/core": {
+                        "2818031 - Trailing slashes can cause FileSystem::mkdir() to return a false negative": "https://www.drupal.org/files/issues/2818031-6.patch"
                     }
                 },
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Acquia\\LightningExtension\\": "src/LightningExtension"
                 }
             },
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
@@ -1997,7 +2135,7 @@
             ],
             "description": "A fast and feature-rich Drupal distribution.",
             "homepage": "https://www.drupal.org/project/lightning",
-            "time": "2016-10-05 15:38:32"
+            "time": "2016-10-14 18:31:50"
         },
         {
             "name": "drupal/media_entity",
@@ -2296,6 +2434,85 @@
             "time": "2016-08-22 17:45:58"
         },
         {
+            "name": "drupal/mollom",
+            "version": "8.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/mollom",
+                "reference": "3b5577be29c58c374a1ef592e75ff580200d4a00"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mollom-8.x-1.1.zip",
+                "reference": "3b5577be29c58c374a1ef592e75ff580200d4a00",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "mollom/client": "dev-psr4",
+                "php": ">=5.3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://drupal.org/project/mollom"
+                }
+            ],
+            "description": "Automatically moderates user-submitted content and protects your site from spam and profanity.",
+            "homepage": "https://drupal.org/project/mollom",
+            "keywords": [
+                "acquia",
+                "mollom",
+                "spam"
+            ],
+            "time": "2015-11-24 18:21:23"
+        },
+        {
+            "name": "drupal/multiversion",
+            "version": "8.1.0-alpha10",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/multiversion.git",
+                "reference": "1eb13a4919e27aef8d2557747402bd96686e07b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/multiversion-8.x-1.0-alpha10.zip",
+                "reference": "1eb13a4919e27aef8d2557747402bd96686e07b1",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/entity_storage_migrate": "8.*",
+                "drupal/key_value": "8.*",
+                "drupal/serialization": "8.*",
+                "drupal/system": ">=8.1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Extends the revision support for content entities.",
+            "homepage": "https://www.drupal.org/project/multiversion",
+            "time": "2016-08-04 07:28:39"
+        },
+        {
             "name": "drupal/page_manager",
             "version": "8.1.0-alpha24",
             "source": {
@@ -2472,6 +2689,83 @@
             "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
             "homepage": "https://www.drupal.org/project/pathauto",
             "time": "2016-08-07 10:52:55"
+        },
+        {
+            "name": "drupal/purge",
+            "version": "8.3.0-beta5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/purge",
+                "reference": "980c8627f71802d5acafceb8a163517b0f40ca49"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/purge-8.x-3.0-beta5.zip",
+                "reference": "980c8627f71802d5acafceb8a163517b0f40ca49",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/purge_drush": "self.version",
+                "drupal/purge_processor_cron": "self.version",
+                "drupal/purge_processor_lateruntime": "self.version",
+                "drupal/purge_queuer_coretags": "self.version",
+                "drupal/purge_tokens": "self.version",
+                "drupal/purge_ui": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/purge_drush, drupal/purge_processor_cron, drupal/purge_processor_lateruntime, drupal/purge_queuer_coretags, drupal/purge_tokens, drupal/purge_ui"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a generic external cache invalidation API and queue service.",
+            "homepage": "https://www.drupal.org/project/purge",
+            "time": "2016-09-07 07:06:10"
+        },
+        {
+            "name": "drupal/replication",
+            "version": "8.1.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/replication.git",
+                "reference": "6361d76da3571301f679e3cea81c5b6f4a6f8b50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/replication-8.x-1.0-alpha4.zip",
+                "reference": "6361d76da3571301f679e3cea81c5b6f4a6f8b50",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/multiversion": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "2814055 - Allow modules to react to replication events": "https://www.drupal.org/files/issues/2814055-2.patch"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides services and entities types to assist with and log content replication.",
+            "homepage": "http://drupal.org/project/replication",
+            "time": "2016-10-05 06:09:24"
         },
         {
             "name": "drupal/scheduled_updates",
@@ -2806,6 +3100,46 @@
                 "Drupal"
             ],
             "time": "2016-06-28 04:04:37"
+        },
+        {
+            "name": "drupal/workspace",
+            "version": "8.1.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/workspace",
+                "reference": "6b21cbeada234f6bfb0e3ca24ddd11033578c9ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/workspace-8.x-1.0-alpha3.zip",
+                "reference": "6b21cbeada234f6bfb0e3ca24ddd11033578c9ff",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/datetime": "8.*",
+                "drupal/options": "8.*",
+                "drupal/replication": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "2791789 - Workspace should report conflicts before replication": "https://www.drupal.org/files/issues/2791789-34.patch"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides the ability to have multiple workspaces on a single site to facilitate things like full-site preview and content staging.",
+            "homepage": "https://www.drupal.org/project/workspace",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-10-05 06:23:30"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3248,6 +3582,50 @@
                 "xml"
             ],
             "time": "2016-09-22 11:01:11"
+        },
+        {
+            "name": "mollom/client",
+            "version": "dev-psr4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mollom/MollomPHP.git",
+                "reference": "bfb97d639d8b0a757c47742af5cfc59dd8363e44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mollom/MollomPHP/zipball/bfb97d639d8b0a757c47742af5cfc59dd8363e44",
+                "reference": "bfb97d639d8b0a757c47742af5cfc59dd8363e44",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mollom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://github.com/mollom/MollomPHP/graphs/contributors"
+                }
+            ],
+            "description": "Generic PHP library for Mollom's REST API.",
+            "keywords": [
+                "acquia",
+                "mollom",
+                "spam"
+            ],
+            "time": "2015-12-03 21:18:35"
         },
         {
             "name": "paragonie/random_compat",
@@ -5608,50 +5986,6 @@
             "time": "2015-06-14 21:17:01"
         },
         {
-            "name": "drupal/admin_toolbar",
-            "version": "8.1.17",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/admin_toolbar.git",
-                "reference": "195f503ee4350c8be74b9515c21e264384a2fcaf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.17.zip",
-                "reference": "195f503ee4350c8be74b9515c21e264384a2fcaf",
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*",
-                "drupal/toolbar": "8.*"
-            },
-            "replace": {
-                "drupal/admin_toolbar_tools": "self.version"
-            },
-            "suggest": {
-                "drupal/core": "Required by drupal/admin_toolbar_tools"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Mohamed Anis Taktak",
-                    "homepage": "https://www.drupal.org/u/matio89"
-                }
-            ],
-            "description": "Provides a drop-down menu interface to the core Drupal Toolbar.",
-            "homepage": "http://drupal.org/project/admin_toolbar",
-            "time": "2016-08-19 14:05:31"
-        },
-        {
             "name": "drupal/drupal-driver",
             "version": "v1.2.1",
             "source": {
@@ -5761,37 +6095,6 @@
                 "web"
             ],
             "time": "2015-12-22 20:10:14"
-        },
-        {
-            "name": "drupal/externalauth",
-            "version": "8.1.0-alpha4",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/externalauth.git",
-                "reference": "55d7e0965089f98fe9e77f91943a74459cb06da8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/externalauth-8.x-1.0-alpha4.zip",
-                "reference": "55d7e0965089f98fe9e77f91943a74459cb06da8",
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-1.x": "8.1.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "description": "Helper module to authenticate users using an external site / service and storing identification details",
-            "homepage": "https://www.drupal.org/project/externalauth",
-            "time": "2016-06-25 12:16:24"
         },
         {
             "name": "fabpot/goutte",

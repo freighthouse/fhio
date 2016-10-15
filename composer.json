@@ -35,7 +35,10 @@
         "drupal/slick_video": "^8.1@beta",
         "drupal/media_entity_audio": "^8.1@beta",
         "drupal/media_entity_facebook": "8.1.x-dev",
-        "symfony/intl": "^3.1"
+        "symfony/intl": "^3.1",
+        "drupal/mollom": "^8.1",
+        "drupal/acquia_lift": "8.3.0-beta2",
+        "drupal/acquia_purge": "8.x"
     },
     "repositories": {
         "0": {
