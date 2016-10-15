@@ -1,6 +1,6 @@
 {
-    "name": "acquia/lightning-project",
-    "description": "Project template for Drupal 8 sites built with the Lightning distribution.",
+    "name": "freighthouse/drupal8",
+    "description": "Project template for the Freighthouse.io Drupal 8 site built with the Lightning distribution.",
     "type": "project",
     "license": "GPL-2.0+",
     "minimum-stability": "dev",
