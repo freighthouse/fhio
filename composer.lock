@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb42a1894146e4aef51a67d2907ce975",
-    "content-hash": "52e17c5c12a731cbb3dbca41f7b32a5e",
+    "hash": "1a072191ca0dae4c55970d38c10016a0",
+    "content-hash": "19b6595ee676911863d2173d51f4fbfe",
     "packages": [
         {
             "name": "acquia/content-hub-php",
@@ -1895,7 +1895,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/externalauth-8.x-1.0-alpha4.zip",
-                "reference": null,
+                "reference": "55d7e0965089f98fe9e77f91943a74459cb06da8",
                 "shasum": null
             },
             "require": {
@@ -3550,6 +3550,55 @@
             "time": "2016-10-05 06:23:30"
         },
         {
+            "name": "drupal/zurb_foundation",
+            "version": "8.6.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/zurb-foundation.git",
+                "reference": "9eba86db3f16090c7509073ce55dc922230d8fba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/zurb-foundation-8.x-6.0-alpha1.zip",
+                "reference": "9eba86db3f16090c7509073ce55dc922230d8fba",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/zurb_foundation": "self.version"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-6.x": "8.6.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Quillen (kevinquillen)",
+                    "homepage": "https://www.drupal.org/u/kevinquillen",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Samuel Mortensen (samuelmortenson)",
+                    "homepage": "https://www.drupal.org/u/samuelmortenson",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "The most advanced responsive front-end framework in the world, now in Drupal! Based on Zurb Foundation version 6.x.",
+            "homepage": "http://drupal.org/project/zurb_foundation",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-05-02 17:11:51"
+        },
+        {
             "name": "easyrdf/easyrdf",
             "version": "0.9.1",
             "source": {
@@ -3662,6 +3711,42 @@
                 "validator"
             ],
             "time": "2016-07-03 21:52:18"
+        },
+        {
+            "name": "enyo/dropzone",
+            "version": "v4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/enyo/dropzone.git",
+                "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/enyo/dropzone/zipball/d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
+                "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matias Meno",
+                    "email": "m@tias.me",
+                    "homepage": "http://www.matiasmeno.com"
+                }
+            ],
+            "description": "Handles drag and drop of files for you.",
+            "homepage": "http://www.dropzonejs.com",
+            "keywords": [
+                "drag and drop",
+                "dragndrop",
+                "file upload",
+                "upload"
+            ],
+            "time": "2016-02-14 04:19:41"
         },
         {
             "name": "guzzlehttp/guzzle",

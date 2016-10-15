@@ -46,7 +46,9 @@
         "drupal/name": "8.x",
         "drupal/Search_api_solr": "8.x",
         "drupal/search_api_solr_multilingual": "8.x",
-        "drupal/externalauth": "^8.1@alpha"
+        "drupal/externalauth": "^8.1@alpha",
+        "drupal/zurb_foundation": "8.6.x",
+        "enyo/dropzone": "^4.3"
     },
     "repositories": {
         "0": {
@@ -92,6 +94,9 @@
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
+            ],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library"
             ]
         },
         "enable-patching": true
