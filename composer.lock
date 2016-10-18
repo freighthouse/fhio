@@ -340,12 +340,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/commerceguys/tax.git",
-                "reference": "4fe18de004f21f76cfd3479736a9a856e589d872"
+                "reference": "742756efc1d6e00a7594d54ed6eb170220505f71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/tax/zipball/4fe18de004f21f76cfd3479736a9a856e589d872",
-                "reference": "4fe18de004f21f76cfd3479736a9a856e589d872",
+                "url": "https://api.github.com/repos/commerceguys/tax/zipball/742756efc1d6e00a7594d54ed6eb170220505f71",
+                "reference": "742756efc1d6e00a7594d54ed6eb170220505f71",
                 "shasum": ""
             },
             "require": {
@@ -388,7 +388,7 @@
                 "tax",
                 "vat"
             ],
-            "time": "2016-09-26 10:42:06"
+            "time": "2016-10-18 10:51:35"
         },
         {
             "name": "commerceguys/zone",
