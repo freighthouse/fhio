@@ -1,0 +1,6 @@
+[submodule "docroot/libraries/slick"]
+	path = docroot/libraries/slick
+	url = https://github.com/kenwheeler/slick.git
+[submodule "docroot/libraries/dropzone"]
+	path = docroot/libraries/dropzone
+	url = https://github.com/enyo/dropzone.git
