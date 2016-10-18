@@ -1,5 +1,5 @@
 {
-    "name": "freighthouse/drupal8",
+    "name": "acquia/lightning-project",
     "description": "Project template for the Freighthouse.io Drupal 8 site built with the Lightning distribution.",
     "type": "project",
     "license": "GPL-2.0+",
@@ -47,7 +47,14 @@
         "drupal/search_api_solr_multilingual": "8.x",
         "drupal/externalauth": "^8.1@alpha",
         "drupal/zurb_foundation": "8.6.x",
-        "enyo/dropzone": "^4.3"
+        "enyo/dropzone": "^4.3",
+        "drupal/commerce": "8.x",
+        "drupal/panels": "8.x",
+        "drupal/profile": "8.x",
+        "drupal/state_machine": "8.x",
+        "drupal/address": "8.x",
+        "drupal/page_manager": "8.x",
+        "drupal/panelizer": "8.x"
     },
     "repositories": {
         "0": {
@@ -57,10 +64,6 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        "fh-github": {
-            "type": "git",
-            "url": "https://github.com/freighthouse"
         }
     },
     "scripts": {
