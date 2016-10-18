@@ -54,7 +54,8 @@
         "drupal/state_machine": "8.x",
         "drupal/address": "8.x",
         "drupal/page_manager": "8.x",
-        "drupal/panelizer": "8.x"
+        "drupal/panelizer": "8.x",
+        "drupal/contact_storage": "8.x"
     },
     "repositories": {
         "0": {
