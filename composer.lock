@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c8a26649dee5cb6d3a88ece2f0020f0",
-    "content-hash": "6a1c2a25cc2e0fc328c476d7a8314511",
+    "hash": "d061be96bc767b6a83cea9d702a7f5aa",
+    "content-hash": "3cddd49c56bcfa3104ffd74ddb9858f8",
     "packages": [
         {
             "name": "acquia/content-hub-php",
@@ -3131,17 +3131,11 @@
         },
         {
             "name": "drupal/pathauto",
-            "version": "8.1.0-beta1",
+            "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/pathauto",
-                "reference": "05a0bc51694b70efb697b3c8b175f2884bff7b34"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-beta1.zip",
-                "reference": "05a0bc51694b70efb697b3c8b175f2884bff7b34",
-                "shasum": null
+                "reference": "9a1273789886dae163e6d6ddbc33b311bc9f7c1e"
             },
             "require": {
                 "drupal/core": "8.*",
@@ -3160,7 +3154,7 @@
             ],
             "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
             "homepage": "https://www.drupal.org/project/pathauto",
-            "time": "2016-08-07 10:52:55"
+            "time": "2016-10-12 14:18:39"
         },
         {
             "name": "drupal/profile",
@@ -8503,7 +8497,8 @@
         "drupal/slick_video": 10,
         "drupal/media_entity_audio": 10,
         "drupal/media_entity_facebook": 20,
-        "drupal/externalauth": 15
+        "drupal/externalauth": 15,
+        "drupal/pathauto": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -55,7 +55,8 @@
         "drupal/address": "8.x",
         "drupal/page_manager": "8.x",
         "drupal/panelizer": "8.x",
-        "drupal/contact_storage": "8.x"
+        "drupal/contact_storage": "8.x",
+        "drupal/pathauto": "8.x-1.x-dev"
     },
     "repositories": {
         "0": {
