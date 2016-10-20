@@ -13,3 +13,6 @@
 [submodule "ember"]
 	path = ember
 	url = https://github.com/freighthouse/ember-fhio.git
+[submodule "docroot/modules/drupal-ember-dev"]
+	path = docroot/modules/drupal-ember-dev
+	url = https://github.com/freighthouse/drupal-ember-dev.git
