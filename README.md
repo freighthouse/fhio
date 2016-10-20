@@ -27,6 +27,43 @@ You will need the following things properly installed on your computer.
 
 * Visit the app at [http://fhio.dd:8083/](http://fhio.dd:8083/).
 
+## Front end deployment with Ember
+
+* `cd ember`
+* `npm install`
+* `bower install`
+
+## Ember - Running / Development
+
+* `ember serve`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
+
+### Ember Code Generators
+
+Make use of the many generators for code, try `ember help generate` for more details
+
+### Running Ember Tests
+
+* `ember test`
+* `ember test --server`
+
+### Building Ember
+
+* `ember build` (development)
+* `ember build --environment production` (production)
+
+### Deploying Ember
+
+Specify what it takes to deploy your app.
+
+## Further Reading / Useful Links for Ember
+
+* [ember.js](http://emberjs.com/)
+* [ember-cli](http://ember-cli.com/)
+* Development Browser Extensions
+  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
 ### Code Generators
 
 ### Running Tests
