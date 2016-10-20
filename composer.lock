@@ -1605,7 +1605,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/contact_storage-8.x-1.0-beta8.zip",
-                "reference": null,
+                "reference": "646a907400bd8d41811b6cbdebed294874f293ce",
                 "shasum": null
             },
             "require": {
