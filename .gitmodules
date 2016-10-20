@@ -9,4 +9,4 @@
 	url = https://github.com/freighthouse/foundation-fhio.git
 [submodule "docroot/modules/custom/drupal-ember-dev"]
 	path = docroot/modules/custom/drupal-ember-dev
-	url = https://github.com/ef4/drupal-ember-dev.git
+	url = https://github.com/freighthouse/drupal-ember-dev.git
