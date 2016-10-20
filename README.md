@@ -23,46 +23,17 @@ You will need the following things properly installed on your computer.
 * `git submodule init`
 * `git submodule update --checkout`
 
-## Running / Development
-
-* Visit the app at [http://fhio.dd:8083/](http://fhio.dd:8083/).
-
-## Front end deployment with Ember
+## Front end deployment
 
 * `cd ember`
 * `npm install`
 * `bower install`
-
-## Ember - Running / Development
-
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Ember Code Generators
+## Running / Development
 
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Ember Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building Ember
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying Ember
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links for Ember
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* Visit the app at [http://fhio.dd:8083/](http://fhio.dd:8083/).
+* Visit the app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
 
@@ -71,8 +42,6 @@ Specify what it takes to deploy your app.
 ### Building
 
 ### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
