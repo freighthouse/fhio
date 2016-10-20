@@ -1,4 +1,0 @@
-#FFCC00
-#FFF
-
-Body text -#5c5a52
