@@ -57,7 +57,13 @@
         "drupal/panelizer": "8.x",
         "drupal/contact_storage": "8.x",
         "drupal/pathauto": "8.x-1.x-dev",
-        "drupal/jsonapi": "^8.1@alpha"
+        "drupal/jsonapi": "^8.1@alpha",
+        "drupal/openid_connect": "^8.1@beta",
+        "drupal/pdb": "^8.1@alpha",
+        "drupal/eck": "8.x",
+        "drupal/embed": "^8.1@RC",
+        "drupal/entity_embed": "^8.1@beta",
+        "drupal/dynamic_entity_reference": "^8.1@RC"
     },
     "repositories": {
         "0": {

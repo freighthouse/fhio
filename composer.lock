@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d4886dbfd054d8ecd77dcb10afcaf050",
-    "content-hash": "d5ef466e6935aa8f287162e5fa85c3b6",
+    "hash": "dea3fa84535e7912b940551c8669532a",
+    "content-hash": "78a4488d652940c4bfa7a2b7faf33fe5",
     "packages": [
         {
             "name": "acquia/content-hub-php",
@@ -1893,6 +1893,80 @@
             "time": "2016-08-02 19:13:00"
         },
         {
+            "name": "drupal/dynamic_entity_reference",
+            "version": "8.1.0-rc5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/dynamic_entity_reference",
+                "reference": "5a168de884ad5d498373b74a077f623ee3f3731a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dynamic_entity_reference-8.x-1.0-rc5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Lee Rowlands",
+                    "homepage": "https://www.drupal.org/u/larowlan",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jibran Ijaz",
+                    "homepage": "https://www.drupal.org/u/jibran",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides an entity reference field that can reference multiple entity types.",
+            "homepage": "http://drupal.org/project/dynamic_entity_reference",
+            "time": "2016-07-23 23:12:43"
+        },
+        {
+            "name": "drupal/eck",
+            "version": "8.1.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/eck",
+                "reference": "d24b6c1852de3c36c340f7371e08e1b1953c1821"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/eck-8.x-1.0-alpha1.zip",
+                "reference": "d24b6c1852de3c36c340f7371e08e1b1953c1821",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "ECK (Entity Contruction Kit) allows users to create and administer entity types, bundles and entities from UI",
+            "homepage": "https://www.drupal.org/project/eck",
+            "time": "2016-01-22 09:27:30"
+        },
+        {
             "name": "drupal/embed",
             "version": "8.1.0-rc3",
             "source": {
@@ -2310,7 +2384,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/jsonapi-8.x-1.0-alpha1.zip",
-                "reference": null,
+                "reference": "06beb7ca2b470ae5db791cad4de68506e5c6ecae",
                 "shasum": null
             },
             "require": {
@@ -3023,6 +3097,40 @@
             "time": "2016-04-20 09:51:23"
         },
         {
+            "name": "drupal/openid_connect",
+            "version": "8.1.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/openid_connect",
+                "reference": "a5c10fe47277a6bb6755ab5ee9032ab76a9e8e9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/openid_connect-8.x-1.0-beta2.zip",
+                "reference": "a5c10fe47277a6bb6755ab5ee9032ab76a9e8e9b",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "A pluggable client implementation for the OpenID Connect protocol.",
+            "homepage": "http://drupal.org/project/openid_connect",
+            "keywords": [
+                "Drupal"
+            ],
+            "time": "2016-06-13 09:56:51"
+        },
+        {
             "name": "drupal/page_manager",
             "version": "8.1.0-alpha24",
             "source": {
@@ -3193,6 +3301,51 @@
             "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
             "homepage": "https://www.drupal.org/project/pathauto",
             "time": "2016-10-12 14:18:39"
+        },
+        {
+            "name": "drupal/pdb",
+            "version": "8.1.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/pdb.git",
+                "reference": "8f32fc08d101b49fdcfb99cd3ea6b42d9b2f1acc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/pdb-8.x-1.0-alpha4.zip",
+                "reference": "8f32fc08d101b49fdcfb99cd3ea6b42d9b2f1acc",
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/ng2_example_1": "self.version",
+                "drupal/ng2_example_2": "self.version",
+                "drupal/ng2_example_configuration": "self.version",
+                "drupal/ng2_example_node": "self.version",
+                "drupal/ng2_hero": "self.version",
+                "drupal/ng2_todo": "self.version",
+                "drupal/pdb_ng2": "self.version",
+                "drupal/pdb_react": "self.version",
+                "drupal/react_example_1": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/ng2_example_1, drupal/ng2_example_2, drupal/ng2_example_configuration, drupal/ng2_example_node, drupal/ng2_hero, drupal/ng2_todo, drupal/pdb_ng2, drupal/react_example_1, drupal/pdb_react"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Build stuff with javascript frameworks as blocks.",
+            "homepage": "https://www.drupal.org/project/pdb",
+            "time": "2016-06-26 20:32:16"
         },
         {
             "name": "drupal/profile",
@@ -6875,6 +7028,113 @@
             "time": "2015-06-14 21:17:01"
         },
         {
+            "name": "drupal/drupal",
+            "version": "7.51.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/drupal",
+                "reference": "ad47f9848e61f770fd1971706966fbfd791845bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/drupal-7.51.zip",
+                "reference": "ad47f9848e61f770fd1971706966fbfd791845bf",
+                "shasum": null
+            },
+            "replace": {
+                "drupal/aggregator": "self.version",
+                "drupal/bartik": "self.version",
+                "drupal/block": "self.version",
+                "drupal/blog": "self.version",
+                "drupal/book": "self.version",
+                "drupal/color": "self.version",
+                "drupal/comment": "self.version",
+                "drupal/contact": "self.version",
+                "drupal/contextual": "self.version",
+                "drupal/dashboard": "self.version",
+                "drupal/dblog": "self.version",
+                "drupal/field": "self.version",
+                "drupal/field_sql_storage": "self.version",
+                "drupal/field_ui": "self.version",
+                "drupal/file": "self.version",
+                "drupal/filter": "self.version",
+                "drupal/forum": "self.version",
+                "drupal/garland": "self.version",
+                "drupal/help": "self.version",
+                "drupal/image": "self.version",
+                "drupal/list": "self.version",
+                "drupal/locale": "self.version",
+                "drupal/menu": "self.version",
+                "drupal/minimal": "self.version",
+                "drupal/node": "self.version",
+                "drupal/number": "self.version",
+                "drupal/openid": "self.version",
+                "drupal/options": "self.version",
+                "drupal/overlay": "self.version",
+                "drupal/path": "self.version",
+                "drupal/php": "self.version",
+                "drupal/poll": "self.version",
+                "drupal/profile": "self.version",
+                "drupal/rdf": "self.version",
+                "drupal/search": "self.version",
+                "drupal/seven": "self.version",
+                "drupal/shortcut": "self.version",
+                "drupal/standard": "self.version",
+                "drupal/stark": "self.version",
+                "drupal/statistics": "self.version",
+                "drupal/syslog": "self.version",
+                "drupal/system": "self.version",
+                "drupal/taxonomy": "self.version",
+                "drupal/text": "self.version",
+                "drupal/toolbar": "self.version",
+                "drupal/tracker": "self.version",
+                "drupal/translation": "self.version",
+                "drupal/trigger": "self.version",
+                "drupal/update": "self.version",
+                "drupal/user": "self.version"
+            },
+            "suggest": {
+                "drupal/block": "Required by drupal/dashboard, drupal/minimal, drupal/standard",
+                "drupal/color": "Required by drupal/standard",
+                "drupal/comment": "Required by drupal/forum, drupal/tracker, drupal/standard",
+                "drupal/contextual": "Required by drupal/standard",
+                "drupal/dashboard": "Required by drupal/standard",
+                "drupal/dblog": "Required by drupal/minimal, drupal/standard",
+                "drupal/field": "Required by drupal/field_sql_storage, drupal/list, drupal/number, drupal/options, drupal/text, drupal/field_ui, drupal/file",
+                "drupal/field_sql_storage": "Required by drupal/field",
+                "drupal/field_ui": "Required by drupal/standard",
+                "drupal/file": "Required by drupal/image, drupal/standard",
+                "drupal/help": "Required by drupal/standard",
+                "drupal/image": "Required by drupal/standard",
+                "drupal/list": "Required by drupal/standard",
+                "drupal/locale": "Required by drupal/translation",
+                "drupal/menu": "Required by drupal/standard",
+                "drupal/number": "Required by drupal/standard",
+                "drupal/options": "Required by drupal/list, drupal/taxonomy, drupal/standard",
+                "drupal/overlay": "Required by drupal/standard",
+                "drupal/path": "Required by drupal/standard",
+                "drupal/rdf": "Required by drupal/standard",
+                "drupal/search": "Required by drupal/standard",
+                "drupal/shortcut": "Required by drupal/standard",
+                "drupal/taxonomy": "Required by drupal/forum, drupal/standard",
+                "drupal/text": "Required by drupal/comment",
+                "drupal/toolbar": "Required by drupal/standard"
+            },
+            "type": "drupal-core",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-": "7.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Handles general site configuration for administrators.",
+            "homepage": "https://www.drupal.org/project/drupal",
+            "time": "2016-10-05 18:45:42"
+        },
+        {
             "name": "drupal/drupal-driver",
             "version": "v1.2.1",
             "source": {
@@ -6984,6 +7244,40 @@
                 "web"
             ],
             "time": "2015-12-22 20:10:14"
+        },
+        {
+            "name": "drupal/styleguide",
+            "version": "7.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/styleguide",
+                "reference": "5701b4968066255b67ebf2e15038542df7438df5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/styleguide-7.x-1.1.zip",
+                "reference": "5701b4968066255b67ebf2e15038542df7438df5",
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*"
+            },
+            "replace": {
+                "drupal/styleguide_palette": "self.version"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Generates a theme style guide for proofing common elements.",
+            "homepage": "https://www.drupal.org/project/styleguide",
+            "time": "2013-05-02 03:47:07"
         },
         {
             "name": "fabpot/goutte",
@@ -8537,7 +8831,12 @@
         "drupal/media_entity_facebook": 20,
         "drupal/externalauth": 15,
         "drupal/pathauto": 20,
-        "drupal/jsonapi": 15
+        "drupal/jsonapi": 15,
+        "drupal/openid_connect": 10,
+        "drupal/pdb": 15,
+        "drupal/embed": 5,
+        "drupal/entity_embed": 10,
+        "drupal/dynamic_entity_reference": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,
