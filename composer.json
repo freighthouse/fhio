@@ -69,7 +69,8 @@
         "drupal/embed": "^8.1@RC",
         "drupal/entity_embed": "^8.1@beta",
         "drupal/dynamic_entity_reference": "^8.1@RC",
-        "drupal/slack_invite": "8.x"
+        "drupal/slack_invite": "8.x",
+        "drupal/memcache": "8.x"
     },
     "repositories": {
         "0": {
