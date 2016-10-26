@@ -1,15 +1,15 @@
 [submodule "docroot/libraries/slick"]
 	path = docroot/libraries/slick
 	url = https://github.com/kenwheeler/slick.git
-
 [submodule "docroot/libraries/dropzone"]
 	path = docroot/libraries/dropzone
 	url = https://github.com/enyo/dropzone.git
-
 [submodule "docroot/themes/foundation-fhio"]
 	path = docroot/themes/foundation-fhio
 	url = https://github.com/freighthouse/foundation-fhio.git
-
 [submodule "docroot/modules/drupal-ember-dev"]
 	path = docroot/modules/drupal-ember-dev
 	url = https://github.com/freighthouse/drupal-ember-dev.git
+[submodule "kss-node"]
+	path = kss-node
+	url = https://github.com/freighthouse/kss-node.git

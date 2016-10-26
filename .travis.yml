@@ -7,7 +7,7 @@ cache:
     - "$HOME/.drush/cache"
     - "$HOME/.npm"
 php:
-  - 5.5
+  - 7.0.11
 
 env:
   - VERSION=STABLE
@@ -16,8 +16,8 @@ env:
 sudo: false
 
 mysql:
-  database: drupal
-  username: root
+  database: fhio
+  username: drupaluser
   encoding: utf8
 
 before_install:
@@ -29,6 +29,11 @@ install:
   # Add Composer's local bin directory to the PATH so that we will be running
   # our installed versions of Drush, PHPCS, Behat, PhantomJS, etc.
   - export PATH="$HOME/.composer/vendor/bin:$TRAVIS_BUILD_DIR/bin:$PATH"
+
+  # Dev tools
+  - nvm install
+  - npm install
+  - gulp install
 
   # MySQL Options
   - mysql -e 'SET GLOBAL wait_timeout = 5400;'
@@ -72,6 +77,9 @@ before_script:
 
 script:
   - bin/behat --strict
+  - composer validate
+  - gulp check
+  - gulp build
 
 matrix:
   fast_finish: true

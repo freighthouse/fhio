@@ -1,16 +1,24 @@
-# Ignore binaries.
+# Binaries
 /bin
 
-# Ignore non-custom parts of Drupal.
+# Drupal excludes
 /docroot/core
 /docroot/modules/contrib
 /docroot/profiles/contrib
 /docroot/themes/contrib
 /docroot/sites/default/files
+/docroot/sites/*/settings.local.php
 
-# Ignore Composer-managed dependencies.
+# Build tools
+node_modules/*
+behat.local.yml
+bower_components/*
+
+# Composer-managed dependencies
 vendor/
-
+!modules/contrib/README.md
+!themes/contrib/README.md
+artifacts/*
 
 # Packages #
 ############

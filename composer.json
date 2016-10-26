@@ -3,11 +3,20 @@
     "description": "Project template for the Freighthouse.io Drupal 8 site built with the Lightning distribution.",
     "type": "project",
     "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jeremy Michael Cerda",
+            "email": "jcerda@freighthouse.io"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
         "behat/behat": "^3.1",
+        "drupal/console": "^0.11.3",
+        "drupal/coder": "^8.2.8",
         "drupal/drupal-extension": "^3.1",
+        "squizlabs/php_codesniffer": "^2.0",
         "behat/mink": "~1.6",
         "behat/mink-goutte-driver": "~1.2",
         "jcalderonzumba/gastonjs": "~1.0.2",
