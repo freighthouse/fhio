@@ -1,6 +1,0 @@
-[submodule "docroot/themes/foundation-fhio"]
-	path = docroot/themes/foundation-fhio
-	url = https://github.com/freighthouse/foundation-fhio.git
-[submodule "docroot/modules/drupal-ember-dev"]
-	path = docroot/modules/drupal-ember-dev
-	url = https://github.com/freighthouse/drupal-ember-dev.git
