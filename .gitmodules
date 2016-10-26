@@ -10,6 +10,3 @@
 [submodule "docroot/modules/drupal-ember-dev"]
 	path = docroot/modules/drupal-ember-dev
 	url = https://github.com/freighthouse/drupal-ember-dev.git
-[submodule "kss-node"]
-	path = kss-node
-	url = https://github.com/freighthouse/kss-node.git

@@ -5,7 +5,8 @@
 /docroot/core
 /docroot/modules/contrib
 /docroot/profiles/contrib
-/docroot/themes/contrib
+#/docroot/themes/contrib
+/docroot/themes/*
 /docroot/sites/default/files
 /docroot/sites/*/settings.local.php
 
@@ -19,6 +20,9 @@ vendor/
 !modules/contrib/README.md
 !themes/contrib/README.md
 artifacts/*
+
+ember/
+styleguide/
 
 # Packages #
 ############
