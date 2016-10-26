@@ -4,8 +4,8 @@
 [submodule "docroot/libraries/dropzone"]
 	path = docroot/libraries/dropzone
 	url = https://github.com/enyo/dropzone.git
-[submodule "docroot/themes/custom/foundation-fhio"]
-	path = docroot/themes/custom/foundation-fhio
+[submodule "docroot/themes/foundation-fhio"]
+	path = docroot/themes/foundation-fhio
 	url = https://github.com/freighthouse/foundation-fhio.git
 [submodule "docroot/modules/drupal-ember-dev"]
 	path = docroot/modules/drupal-ember-dev

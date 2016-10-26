@@ -3,9 +3,9 @@
 
 # Drupal excludes
 /docroot/core
-/docroot/modules/contrib
+/docroot/libraries/*
+/docroot/modules/*
 /docroot/profiles/contrib
-#/docroot/themes/contrib
 /docroot/themes/*
 /docroot/sites/default/files
 /docroot/sites/*/settings.local.php
