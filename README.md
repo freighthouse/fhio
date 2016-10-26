@@ -17,8 +17,6 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/freighthouse/fhio.git`
-* `cd fhio`
 * `composer install`
 * `git submodule init`
 * `git submodule update --checkout`

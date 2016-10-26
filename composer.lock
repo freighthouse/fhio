@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dea3fa84535e7912b940551c8669532a",
-    "content-hash": "78a4488d652940c4bfa7a2b7faf33fe5",
+    "hash": "a0512b4d501229da3850aeef9a04e2c0",
+    "content-hash": "06cba30b177d858805f6e5b75c5dc2f8",
     "packages": [
         {
             "name": "acquia/content-hub-php",
@@ -1903,7 +1903,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/dynamic_entity_reference-8.x-1.0-rc5.zip",
-                "reference": null,
+                "reference": "5a168de884ad5d498373b74a077f623ee3f3731a",
                 "shasum": null
             },
             "require": {
@@ -3628,6 +3628,37 @@
             "time": "2016-08-25 14:52:56"
         },
         {
+            "name": "drupal/slack_invite",
+            "version": "8.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/slack_invite.git",
+                "reference": "f6285dc4b442126131e3c68ef96efb147d153c79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/slack_invite-8.x-1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Invite your users to your slack team",
+            "homepage": "https://www.drupal.org/project/slack_invite",
+            "time": "2015-11-20 17:04:40"
+        },
+        {
             "name": "drupal/slick",
             "version": "8.1.0-beta4",
             "source": {
@@ -4154,42 +4185,6 @@
                 "validator"
             ],
             "time": "2016-07-03 21:52:18"
-        },
-        {
-            "name": "enyo/dropzone",
-            "version": "v4.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/enyo/dropzone.git",
-                "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/enyo/dropzone/zipball/d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
-                "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matias Meno",
-                    "email": "m@tias.me",
-                    "homepage": "http://www.matiasmeno.com"
-                }
-            ],
-            "description": "Handles drag and drop of files for you.",
-            "homepage": "http://www.dropzonejs.com",
-            "keywords": [
-                "drag and drop",
-                "dragndrop",
-                "file upload",
-                "upload"
-            ],
-            "time": "2016-02-14 04:19:41"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -7028,6 +7023,43 @@
             "time": "2015-06-14 21:17:01"
         },
         {
+            "name": "drupal/coder",
+            "version": "8.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/coder",
+                "reference": "b08682bd939cf7d3ac7034bee792aa17f80e19d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/coder-8.x-2.9.zip",
+                "reference": "b08682bd939cf7d3ac7034bee792aa17f80e19d7",
+                "shasum": null
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.0",
+                "squizlabs/php_codesniffer": ">=2.7.0",
+                "symfony/yaml": ">=2.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=3.7"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Coder is a library to review Drupal code.",
+            "homepage": "https://www.drupal.org/project/coder",
+            "keywords": [
+                "code review",
+                "phpcs",
+                "standards"
+            ],
+            "time": "2016-09-17 16:49:15"
+        },
+        {
             "name": "drupal/drupal",
             "version": "7.51.0",
             "source": {
@@ -8497,6 +8529,84 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2015-06-21 13:59:46"
+        },
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "2.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "reference": "571e27b6348e5b3a637b2abc82ac0d01e6d7bbed",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.1.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "bin": [
+                "scripts/phpcs",
+                "scripts/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "CodeSniffer.php",
+                    "CodeSniffer/CLI.php",
+                    "CodeSniffer/Exception.php",
+                    "CodeSniffer/File.php",
+                    "CodeSniffer/Fixer.php",
+                    "CodeSniffer/Report.php",
+                    "CodeSniffer/Reporting.php",
+                    "CodeSniffer/Sniff.php",
+                    "CodeSniffer/Tokens.php",
+                    "CodeSniffer/Reports/",
+                    "CodeSniffer/Tokenizers/",
+                    "CodeSniffer/DocGenerators/",
+                    "CodeSniffer/Standards/AbstractPatternSniff.php",
+                    "CodeSniffer/Standards/AbstractScopeSniff.php",
+                    "CodeSniffer/Standards/AbstractVariableSniff.php",
+                    "CodeSniffer/Standards/IncorrectPatternException.php",
+                    "CodeSniffer/Standards/Generic/Sniffs/",
+                    "CodeSniffer/Standards/MySource/Sniffs/",
+                    "CodeSniffer/Standards/PEAR/Sniffs/",
+                    "CodeSniffer/Standards/PSR1/Sniffs/",
+                    "CodeSniffer/Standards/PSR2/Sniffs/",
+                    "CodeSniffer/Standards/Squiz/Sniffs/",
+                    "CodeSniffer/Standards/Zend/Sniffs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "time": "2016-09-01 23:53:02"
         },
         {
             "name": "symfony/browser-kit",
