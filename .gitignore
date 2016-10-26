@@ -3,10 +3,9 @@
 
 # Drupal excludes
 /docroot/core
-/docroot/libraries/*
-/docroot/modules/*
+/docroot/modules/contrib
 /docroot/profiles/contrib
-/docroot/themes/*
+/docroot/themes/contrib
 /docroot/sites/default/files
 /docroot/sites/*/settings.local.php
 
@@ -20,9 +19,6 @@ vendor/
 !modules/contrib/README.md
 !themes/contrib/README.md
 artifacts/*
-
-ember/
-styleguide/
 
 # Packages #
 ############
