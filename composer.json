@@ -70,7 +70,14 @@
         "drupal/entity_embed": "^8.1@beta",
         "drupal/dynamic_entity_reference": "^8.1@RC",
         "drupal/slack_invite": "8.x",
-        "drupal/memcache": "8.x"
+        "drupal/memcache": "8.x",
+        "symfony/var-dumper": "^3.1",
+        "ml/json-ld": "^1.0",
+        "symfony/expression-language": "^3.1",
+        "symfony/property-access": "^3.1",
+        "symfony/proxy-manager-bridge": "^3.1",
+        "behat/mink-zombie-driver": "^1.4",
+        "phpunit/php-invoker": "^1.1"
     },
     "repositories": {
         "0": {
