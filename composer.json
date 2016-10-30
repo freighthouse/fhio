@@ -1,6 +1,6 @@
 {
-    "name": "acquia/lightning-project",
-    "description": "Project template for the Freighthouse.io Drupal 8 site built with the Lightning distribution.",
+    "name": "acquia/blt-project",
+    "description": "Project template for freighthouse.io built with BLT.",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -11,22 +11,24 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require-dev": {
-        "behat/behat": "^3.1",
-        "drupal/drupal-extension": "^3.1",
-        "behat/mink": "~1.6",
-        "behat/mink-goutte-driver": "~1.2",
-        "jcalderonzumba/gastonjs": "~1.0.2",
-        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-        "mikey179/vfsStream": "~1.2",
-        "phpunit/phpunit": "~4.8",
-        "symfony/css-selector": "2.7.*"
-    },
     "require": {
-        "composer/installers": "^1.0",
-        "drupal-composer/drupal-scaffold": "^2.0.0",
-        "cweagans/composer-patches": "1.5.0",
-        "drupal/lightning": "^8.1.0",
+        "acquia/blt": "^8.3",
+        "composer/installers": "^1.0.20",
+        "cweagans/composer-patches": "dev-master#5456199acdcc16b243814aa45259f4c56272a634 as 1.5.0",
+        "drupal/acquia_connector": "^8.1.5",
+        "drupal/acquia_purge": "8.x",
+        "drupal/acquia_flush_varnish": "^8.1",
+        "drupal/acsf": "^8.1.32",
+        "drupal/cog": "^8.1.0",
+        "drupal/console": "1.0.0-beta5",
+        "drupal/core": "~8",
+        "drupal/features": "^8.3.0-beta9",
+        "drupal/lightning": "8.1.x-dev",
+        "drupal/memcache": "^8.2.0-alpha2",
+        "drupal/search_api": "8.1.0-alpha14",
+        "drupal/search_api_solr": "8.1.0-alpha3",
+        "drupal/security_review": "8.*",
+        "drupal-composer/drupal-security-advisories": "8.0.x-dev",
         "drupal/geolocation": "^8.1",
         "drupal/blazy": "^8.1@beta",
         "drupal/dropzonejs": "^8.1@alpha",
@@ -42,17 +44,11 @@
         "drupal/media_entity_facebook": "8.1.x-dev",
         "symfony/intl": "^3.1",
         "drupal/mollom": "^8.1",
-        "drupal/acquia_lift": "8.3.0-beta2",
-        "drupal/acquia_purge": "8.x",
-        "drupal/acquia_contenthub": "8.x",
-        "drupal/acquia_flush_varnish": "^8.1",
         "drupal/admin_toolbar": "^8.1",
         "drupal/admin_toolbar_tools": "8.x",
         "drupal/name": "8.x",
-        "drupal/Search_api_solr": "8.x",
         "drupal/search_api_solr_multilingual": "8.x",
         "drupal/externalauth": "^8.1@alpha",
-        "drupal/zurb_foundation": "8.6.x",
         "drupal/commerce": "8.x",
         "drupal/panels": "8.x",
         "drupal/profile": "8.x",
@@ -70,40 +66,55 @@
         "drupal/entity_embed": "^8.1@beta",
         "drupal/dynamic_entity_reference": "^8.1@RC",
         "drupal/slack_invite": "8.x",
-        "drupal/memcache": "8.x"
+        "drupal/zurb_foundation": "8.6.x",
+        "drush/config-extra": "^1.0",
+        "moneyphp/money": "^3.0"
     },
-    "repositories": {
-        "0": {
-            "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
-        },
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
+    "require-dev": {
+        "behat/behat": "^3.1",
+        "behat/mink": "~1.7",
+        "behat/mink-selenium2-driver": "^1.3.1",
+        "drupal/coder": "^8.2.9",
+        "drupal/drupal-extension": "^3.2",
+        "drush/drush": "^9.0",
+        "drupal-composer/drupal-scaffold": "^2.1.0",
+        "jarnaiz/behat-junit-formatter": "^1.3.2",
+        "phpunit/phpunit": "^5.4",
+        "se/selenium-server-standalone": "^2.53",
+        "squizlabs/php_codesniffer": "^2.7"
     },
     "scripts": {
-        "post-install-cmd": [
-            "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-            "Acquia\\Lightning\\ScriptHandler::deployLibraries"
+        "post-create-project-cmd": [
+            "rm -f .travis.yml",
+            "rm -f README.md",
+            "rm -f LICENSE.txt",
+            "blt create-project"
         ],
-        "post-update-cmd": [
-            "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-            "Acquia\\Lightning\\ScriptHandler::deployLibraries"
+        "blt-alias": "blt install-alias -Dcreate_alias=true",
+        "nuke": [
+            "rm -rf vendor composer.lock",
+            "@composer clearcache",
+            "@composer install"
         ]
     },
-    "config": {
-        "bin-dir": "bin/"
-    },
-    "autoload": {
-        "classmap": [
-            "scripts/ScriptHandler.php"
-        ]
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.drupal-composer.org"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Drupal\\Tests\\PHPUnit\\": "tests/phpunit/src/"
+        }
     },
     "extra": {
+        "blt": {
+            "update": true
+        },
         "installer-paths": {
             "docroot/core": [
-                "drupal/core"
+                "type:drupal-core"
             ],
             "docroot/modules/contrib/{$name}": [
                 "type:drupal-module"
@@ -116,11 +127,15 @@
             ],
             "drush/contrib/{$name}": [
                 "type:drupal-drush"
-            ],
-            "docroot/libraries/{$name}": [
-                "type:drupal-library"
             ]
         },
-        "enable-patching": true
+        "patches": {
+            "drupal/core": {
+                "Ignore front end vendor folders to improve directory search performance": "https://www.drupal.org/files/issues/ignore_front_end_vendor-2329453-116.patch"
+            },
+            "drupal/features": {
+                "Bundle support": "https://www.drupal.org/files/issues/features-2808303-2.patch"
+            }
+        }
     }
 }

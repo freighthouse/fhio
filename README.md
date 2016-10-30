@@ -30,7 +30,6 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* Visit the app at [http://fhio.dd:8083/](http://fhio.dd:8083/).
 * Visit the app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
